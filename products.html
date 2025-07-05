@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/index.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <title>All Products - Kingsley's Store</title>
+</head>
+<body>
+    <div class="container mt-5 pb-5">
+        <h2 class="text-center mb-4">View All Products</h2>
+        <a href="/index.html" class="btn btn-success mb-4">← Back to Home</a>
+        <div id="productList" class="row g-4 pb-5"></div>
+    </div>
+
+    <script>
+        loadProducts(); // This line loads all products on page load
+    </script>
+</body>
+</html>
