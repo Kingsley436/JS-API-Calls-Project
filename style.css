@@ -2,3 +2,14 @@
   height: 100vh;
   background: url(/img/store.jpg) no-repeat center center/cover;
 }
+
+
+/* For the single product page image */
+.single-product-image {
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: #fff;
+}

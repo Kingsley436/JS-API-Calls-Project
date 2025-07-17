@@ -37,7 +37,7 @@ function loadSingleProduct() {
       const container = document.getElementById('productDetails');
       container.innerHTML = `
         <div class="col-md-6">
-          <img src="${product.image}" class="img-fluid" alt="${product.title}">
+          <img src="${product.image}" class="img-fluid single-product-image" alt="${product.title}">
         </div>
         <div class="col-md-6">
           <h2>${product.title}</h2>
